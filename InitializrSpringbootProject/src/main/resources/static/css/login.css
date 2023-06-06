@@ -47,6 +47,14 @@ html, body{
     background-color: #f1f2f6;
 }
 
+.login-container .login-container-image{
+    display: inherit;
+    justify-content: center
+}
+.login-container .login-container-image img{
+    width: 25%;
+    object-fit: contain;
+}
 .login-title{
     font-size: 3rem;
 }
@@ -59,7 +67,8 @@ html, body{
 .login-items{
     display: inherit;
     flex-direction: column;
-    height: 600px;
+    
+    height: 63%;
     justify-content: space-around;
     width: 80%;
     padding: 50px 100px;
@@ -73,12 +82,13 @@ html, body{
     padding: 10px 20px;
     background-color: rgba(223, 228, 234,0.5);
     border: rgba(223, 228, 234,0.5);
+    outline: none;
 }
 .login-button{
     padding: 10px 20px;
-background-color: #000000;
-color: #ffffff;
-border: none;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+    cursor: pointer;
 }
