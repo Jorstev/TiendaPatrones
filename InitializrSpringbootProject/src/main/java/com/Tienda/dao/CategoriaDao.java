@@ -5,12 +5,14 @@
 package com.Tienda.dao;
 
 import com.tienda.domain.Categoria;
+import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  *
  * @author JordanStevenChavarri
  */
+@Repository
 public interface CategoriaDao extends JpaRepository<Categoria,Long> {
     
 }
